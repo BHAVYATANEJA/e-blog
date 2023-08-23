@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0px 8px 6px -6px grey;
+    border-bottom: 1px solid grey;
+}
+.active{
+    border-bottom: 1px solid grey;
+}
+
+  .navbar-brand{
+    font-weight: 700;
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 3px;
+  }
+.nav-item{
+    font-weight: 700; 
+}
+
+/*footer*/
+
+
+.footer{
+  height: 88px;
+  background-color: black;
+  color: whitesmoke;
+}
+.footer h5{
+text-align: center;
+letter-spacing: 2px;
+padding-top: 20px;
+}
+.footer-link{
+  text-align: center;
+}
+.footer-link a{
+  margin-right: 16px;
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.footer-link a:hover{
+  border-bottom: 2px solid antiquewhite;
+}
+
+/*login and register*/
+
+
+.form{
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.form h2{
+  font-weight: 800;
+  color: grey;
+  letter-spacing: 2px;
+}
+.register {
+  min-width: 480px;
+  box-shadow: 0 4px 8px 0 grey;
+  background-color: #fff;
+}
+
+.btn {
+  width: 107px;
+  font-weight: 600;
+}
+
+/*contact*/
+
+.con-img{
+width:600px ;
+height: 512px;
+
+}
+.contact-head h1{
+  font-weight: 800;
+  color: grey;
+  letter-spacing: 2px;
+}
+
+/*pagenotfound*/
+
+.pgn-head1{
+  font-size: 100px;
+  font-weight: 700;
+}
+.pgn-head2{
+  font-weight: 500;
+  color: black;
+}
+
+
+
+
